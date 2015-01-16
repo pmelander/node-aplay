@@ -11,8 +11,13 @@
     "url": "https://github.com/pmelande/node-aplay.git"
   },
   "keywords": [
-    "alsa", "aplay"
+    "alsa",
+    "aplay"
   ],
   "author": "Patrik Melander <melander.patrik@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmelande/node-aplay/issues"
+  },
+  "homepage": "https://github.com/pmelande/node-aplay"
 }
