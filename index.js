@@ -21,7 +21,7 @@ util.inherits(module.exports, events.EventEmitter);
 
 module.exports.prototype.play = function () {
 	this.stopped = false;
-	this.process = spawn('mpg123', [ this.filename ]);
+	this.process = spawn('aplay', [ this.filename ]);
 	var self = this;
 	this.process.on('exit', function (code, sig) {
 		if (code !== null && sig === null) {
