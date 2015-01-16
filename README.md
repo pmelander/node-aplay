@@ -1,25 +1,32 @@
-node-mpg123
+node-aplay
 ===========
 
-Written entirely in JS mpg123 (http://www.mpg123.de/) wrapper for Node.js.
+ALSA aplay wrapper for Node.js
 
 Installation
 -----------
 ### Debian/Ubuntu ###
+
+#### Get ready ####
+
+Before we start the real work, please update the system.
 ````
-sudo apt-get install mpg123
-npm install node-mpg123
+sudo apt-get update
+sudo apt-get upgrade
+````
+Install ALSA for audio playback
+````
+sudo apt-get install alsa-base alsa-utils
 ````
 
 Example Usage
 ------------
 
 ````javascript
-var Sound = require('node-mpg123');
+var Sound = require('node-aplay');
 
 // fire and forget:
 new Sound('/path/to/the/file/filename.mp3').play();
-
 
 // with ability to pause/resume:
 var music = new Sound('/path/to/the/file/filename.mp3');
