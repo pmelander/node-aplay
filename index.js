@@ -1,9 +1,9 @@
 /**
- * node-mpg123
- * Javascript mpg123 wrapper for Node.js
+ * node-aplay
+ * Javascript ALSA aplay wrapper for Node.js
  *
- * @author Maciej Sopyło (killah)
- * Copyright 2012 Maciej Sopyło @ KILLAHFORGE.
+ * @author Patrik Melander (lotAballs)
+ * @originalAuthor Maciej Sopyło @ KILLAHFORGE.
  *
  * MIT License
  */
