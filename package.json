@@ -12,7 +12,11 @@
   },
   "keywords": [
     "alsa",
-    "aplay"
+    "aplay",
+    "sound",
+    "sounds",
+    "wav",
+    "audio"
   ],
   "author": "Patrik Melander <melander.patrik@gmail.com>",
   "license": "MIT",
