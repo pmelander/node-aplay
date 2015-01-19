@@ -1,6 +1,6 @@
 {
   "name": "node-aplay",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ALSA aplay wrapper for Node",
   "main": "node-aplay.js",
   "scripts": {
